@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^8.9",
         "drupal/rules": "^3.0",
         "drupal/scheduler": "1.x-dev",
+        "drupal/typed_data": "1.x-dev",
         "drush/drush": "^10.2",
         "oomphinc/composer-installers-extender": "^1.1",
         "wikimedia/composer-merge-plugin": "^1.4"
