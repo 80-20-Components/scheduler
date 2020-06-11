@@ -19,7 +19,7 @@
         "cweagans/composer-patches": "^1.6",
         "drupal/core-composer-scaffold": "^8.9",
         "drupal/core-recommended": "^8.9",
-        "drupal/devel_generate": "^2.1",
+        "drupal/devel": "3.x-dev",
         "drupal/rules": "^3.0",
         "drupal/scheduler": "1.x-dev",
         "drupal/typed_data": "1.x-dev",
@@ -95,6 +95,14 @@
         "patches": {
             "drupal/core": {
                 "ContextDefinition::create() can no longer be used with an entitytype-specific datatype (like entity:user)": "https://www.drupal.org/files/issues/2020-04-13/3126747-entitycontext-3.patch"
+            },
+            "drupal/rules": {
+            },
+            "drupal/typed_data": {
+            },
+            "drupal/scheduler": {
+            },
+            "drupal/devel": {
             }
         }
     },
